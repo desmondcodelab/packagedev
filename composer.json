@@ -15,12 +15,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Freshbitsweb\\LaravelLogEnhancer\\": "src/"
+            "Desmondcodelab\\LaravelLogEnhancer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Freshbitsweb\\LaravelLogEnhancer\\Test\\": "tests"
+            "Desmondcodelab\\LaravelLogEnhancer\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Freshbitsweb\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
+                "Desmondcodelab\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
             ]
         }
     }

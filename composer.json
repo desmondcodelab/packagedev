@@ -1,0 +1,38 @@
+{
+    "name": "despack/desmondpk",
+    "description": "desmond package rnd",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "desmond",
+            "email": "desmond@iscity.com.my"
+        }
+    ],
+    "require": {},
+
+	"minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Freshbitsweb\\LaravelLogEnhancer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Freshbitsweb\\LaravelLogEnhancer\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Freshbitsweb\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
+            ]
+        }
+    }
+
+
+}

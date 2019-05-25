@@ -1,6 +1,6 @@
 {
     "name": "desmondcodelab/packagedev",
-    "description": "desmond package rnd",
+    "description": "desmond package rnd dev",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [

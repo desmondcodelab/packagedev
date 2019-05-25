@@ -1,8 +1,8 @@
-[![Latest Stable Version](https://poser.pugx.org/freshbitsweb/laravel-log-enhancer/v/stable)](https://packagist.org/packages/freshbitsweb/laravel-log-enhancer)
-[![Total Downloads](https://poser.pugx.org/freshbitsweb/laravel-log-enhancer/downloads)](https://packagist.org/packages/freshbitsweb/laravel-log-enhancer)
-[![License](https://poser.pugx.org/freshbitsweb/laravel-log-enhancer/license)](https://packagist.org/packages/freshbitsweb/laravel-log-enhancer)
+[![Latest Stable Version](https://poser.pugx.org/desmondcodelab/packagedev/v/stable)](https://packagist.org/packages/desmondcodelab/packagedev)
+[![Total Downloads](https://poser.pugx.org/desmondcodelab/packagedev/downloads)](https://packagist.org/packages/desmondcodelab/packagedev)
+[![License](https://poser.pugx.org/desmondcodelab/packagedev/license)](https://packagist.org/packages/desmondcodelab/packagedev)
 [![StyleCI](https://styleci.io/repos/126970369/shield?branch=master)](https://styleci.io/repos/126970369)
-[![Build Status](https://travis-ci.org/freshbitsweb/laravel-log-enhancer.svg?branch=master)](https://travis-ci.org/freshbitsweb/laravel-log-enhancer)
+[![Build Status](https://travis-ci.org/desmondcodelab/packagedev.svg?branch=master)](https://travis-ci.org/desmondcodelab/packagedev)
 
 # Laravel Log Enhancer (Laravel 5.6 to Laravel 5.8)
 Laravel's logging system helps a lot for storing data as well as while troubleshooting some hidden bugs. The data related to the exception automatically gets logged whenever something goes wrong.
@@ -21,7 +21,7 @@ Sometimes, we need more than just *stack trace* to debug the issue easily. The t
 
 1) Install the package by running this command in your terminal/cmd:
 ```
-composer require freshbitsweb/laravel-log-enhancer
+composer require desmondcodelab/packagedev
 ```
 
 2) Add this package's LogEnhancer class to the tap option of your log channel in **config/logging.php**:
@@ -57,7 +57,7 @@ It has following configuration settings:
 
 * [**Gaurav Makhecha**](https://github.com/gauravmak) - *Initial work*
 
-See also the list of [contributors](https://github.com/freshbitsweb/laravel-log-enhancer/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/desmondcodelab/packagedev/graphs/contributors) who participated in this project.
 
 ## License
 
